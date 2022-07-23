@@ -1,6 +1,7 @@
-package tr.com.nihatalim.tjk.parser.service;
+package tr.com.nihatalim.tjk.parser.service.race;
 
 import org.springframework.stereotype.Service;
+import tr.com.nihatalim.tjk.parser.service.IStringParser;
 import tr.com.nihatalim.tjk.parser.util.RegexUtil;
 
 @Service

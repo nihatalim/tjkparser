@@ -1,4 +1,4 @@
-package tr.com.nihatalim.tjk.parser.service;
+package tr.com.nihatalim.tjk.parser.service.race;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import tr.com.nihatalim.tjk.parser.exception.ParseException;
-import tr.com.nihatalim.tjk.parser.models.RaceHeaderModel;
+import tr.com.nihatalim.tjk.parser.models.race.RaceHeaderModel;
 import tr.com.nihatalim.tjk.parser.util.ParserUtil;
 
 @ExtendWith(MockitoExtension.class)

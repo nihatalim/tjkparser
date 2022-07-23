@@ -1,4 +1,4 @@
-package tr.com.nihatalim.tjk.parser.models;
+package tr.com.nihatalim.tjk.parser.models.race;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,12 +1,13 @@
-package tr.com.nihatalim.tjk.parser.service;
+package tr.com.nihatalim.tjk.parser.service.race;
 
 import org.springframework.stereotype.Service;
 import tr.com.nihatalim.tjk.parser.exception.ParseException;
-import tr.com.nihatalim.tjk.parser.models.RaceHeaderModel;
+import tr.com.nihatalim.tjk.parser.models.race.RaceHeaderModel;
+import tr.com.nihatalim.tjk.parser.service.IStringParser;
 import tr.com.nihatalim.tjk.parser.util.ParserUtil;
 
 @Service
-public class RaceHeaderParser implements IStringParser<RaceHeaderModel>{
+public class RaceHeaderParser implements IStringParser<RaceHeaderModel> {
     private static final int HEADER_DEFAULT_PARAM_COUNT = 3;
 
     private final RaceDayParser raceDayParser;
